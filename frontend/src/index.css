@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: #6C63FF;
+    --color-accent: #00C9A7;
+    --color-background: #F9FAFB;
+  }
+
+  * {
+    @apply antialiased;
+  }
+
+  body {
+    @apply bg-[#F9FAFB] text-gray-900 font-sans;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}

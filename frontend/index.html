@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intelligent Student Assistant Frontend</title>
+
+    <!-- SVG favicon (scalable, modern browsers) -->
+    <link rel="icon" type="image/svg+xml" href="/logo-2025-v3.svg?v=1" sizes="any" />
+    
+  
+
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Dynamic favicon reload script -->
+    <script>
+      function updateFavicon(src) {
+        const link = document.querySelector("link[rel~='icon']");
+        const timestamp = new Date().getTime(); // Force reload
+        if (link) {
+          link.href = src + "?v=" + timestamp;
+        } else {
+          const newLink = document.createElement('link');
+          newLink.rel = 'icon';
+          newLink.href = src + "?v=" + timestamp;
+          document.head.appendChild(newLink);
+        }
+      }
+
+      // Load SVG favicon dynamically
+      updateFavicon('/logo-2025-v3.svg');
+    </script>
+  </body>
+</html>
