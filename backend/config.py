@@ -14,8 +14,8 @@ ALLOWED_EXTENSIONS = {'pdf', 'png', 'jpg', 'jpeg', 'txt', 'ppt', 'pptx'}
 
 
 # API keys
-GEMINI_API_KEY = "AIzaSyCTcvK8HUWmiAWf0JHtH_7l4hVTqdjZyz8"
-YOUTUBE_API_KEY = "AIzaSyDZ83wLoOlpQD8bM6h6v-AjPSCgyDETKKo"
+GEMINI_API_KEY = "-----------------------------------"
+YOUTUBE_API_KEY = "----------------------------------"
 
 
 # ------------------------
