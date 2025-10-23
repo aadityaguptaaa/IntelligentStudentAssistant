@@ -3,7 +3,7 @@
 # ------------------------
 MYSQL_HOST = "localhost"          # MySQL server host
 MYSQL_USER = "root"               # Replace with your MySQL username
-MYSQL_PASSWORD = "Aaditya13"  # Replace with your MySQL password
+MYSQL_PASSWORD = "*****"  # Replace with your MySQL password
 MYSQL_DB = "isa_db"               # Database name
 
 # ------------------------
