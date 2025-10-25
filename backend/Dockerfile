@@ -1,7 +1,14 @@
-# Example Dockerfile Snippet
-WORKDIR /app/
-# Copy both backend and frontend, or just the necessary backend parts
-COPY . /app/
+FROM python:3.13-slim
 
-# The command should then correctly resolve 'backend.app'
-CMD ["gunicorn", "backend.app:app", "-b", "0.0.0.0:8080"]
+WORKDIR /app
+
+COPY requirements.txt .
+
+RUN pip install --upgrade pip
+RUN pip install -r requirements.txt
+
+COPY . .
+
+ENV PORT=5000
+
+CMD ["gunicorn", "app:app", "--bind", "0.0.0.0:$PORT", "--workers", "3"]
