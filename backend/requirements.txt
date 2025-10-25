@@ -1,14 +1,12 @@
 
-flask
-flask-cors
-pandas
-scikit-learn
-google-generativeai
-requests
-pillow
-pytesseract
-gunicorn
-PyPDF2
-numpy
-transformers
-sentence-tranformers
+Flask==2.3.3
+Flask-Cors==3.1.1
+gunicorn==23.0.0
+PyPDF2==3.0.1
+requests==2.31.0
+numpy==1.26.4
+pandas==2.1.1
+scikit-learn==1.3.3
+torch==2.1.0
+transformers==4.57.1
+sentence-transformers==2.2.2
