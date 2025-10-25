@@ -11,9 +11,17 @@
 
 ## ✨ Project Overview
 
-This is a **Full-Stack, AI-Integrated Student Dashboard** designed to modernize the learning experience by providing personalized guidance and performance forecasting. It moves beyond static content delivery, utilizing **Machine Learning** models to analyze student input, predict academic outcomes, and deliver hyper-relevant study materials and tools.
+This project, developed as part of my Machine Learning coursework in the 5th semester, is a modern, intelligent student dashboard designed to transform the learning experience. Unlike traditional static platforms, this system leverages Machine Learning models to:
 
-The application serves as a central hub for continuous self-assessment, targeted study, and academic support.
+Analyze student inputs and learning patterns
+
+Predict academic performance and outcomes
+
+Deliver personalized study materials and resources
+
+Provide actionable insights for continuous self-assessment
+
+Serving as a central hub for academic support, the dashboard empowers students with targeted guidance, performance forecasting, and smart learning recommendations, making the educational journey more engaging, adaptive, and effective.
 
 ***
 
