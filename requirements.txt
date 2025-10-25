@@ -5,7 +5,6 @@ pandas
 scikit-learn
 google-generativeai
 sentence-transformers
-torch
 requests
 PyPDF2
 pillow
