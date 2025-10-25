@@ -9,21 +9,19 @@
 | **Frontend (UI)** | React / TypeScript | [![React](https://img.shields.io/badge/React-TS-61DAFB.svg)](https://react.dev/) | [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) |
 | **ML Models** | Scikit-learn / Pickle | [![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E.svg?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/) | |
 
-## ✨ Project Overview
+# ✨ Project Overview
 
-This project, developed as part of my Machine Learning coursework in the 5th semester, is a modern, intelligent student dashboard designed to transform the learning experience. Unlike traditional static platforms, this system leverages Machine Learning models to:
+## Full-Stack, AI-Integrated Student Dashboard
 
-Analyze student inputs and learning patterns
+This project, developed as part of my **Machine Learning coursework in the 5th semester**, is a modern, intelligent student dashboard designed to transform the learning experience. Unlike traditional static platforms, this system leverages **Machine Learning models** to:
 
-Predict academic performance and outcomes
+- Analyze student inputs and learning patterns  
+- Predict academic performance and outcomes  
+- Deliver **personalized study materials and resources**  
+- Provide actionable insights for continuous self-assessment  
 
-Deliver personalized study materials and resources
+Serving as a **central hub for academic support**, the dashboard empowers students with **targeted guidance**, **performance forecasting**, and **smart learning recommendations**, making the educational journey more **engaging, adaptive, and effective**.
 
-Provide actionable insights for continuous self-assessment
-
-Serving as a central hub for academic support, the dashboard empowers students with targeted guidance, performance forecasting, and smart learning recommendations, making the educational journey more engaging, adaptive, and effective.
-
-***
 
 ## 🚀 Key Features & AI Modules
 
