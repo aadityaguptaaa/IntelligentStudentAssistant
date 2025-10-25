@@ -1,4 +1,5 @@
 # app.py
+import os
 from flask import Flask, request, jsonify
 from modules import doubt_solver, recommendation, summarizer
 from flask_cors import CORS
