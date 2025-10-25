@@ -1,1 +1,13 @@
-
+flask
+flask-cors
+mysql-connector-python
+pandas
+scikit-learn
+google-generativeai
+sentence-transformers
+torch
+requests
+PyPDF2
+pillow
+pytesseract
+gunicorn
