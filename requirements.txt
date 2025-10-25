@@ -8,3 +8,6 @@ pillow
 pytesseract
 gunicorn
 PyPDF2
+numpy
+transformers
+sentence-tranformers
