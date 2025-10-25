@@ -129,10 +129,7 @@ Follow these steps to get the development environment running on your machine.
 
 ***
 
-## 📬 Contact
-
-© 2025 **Aaditya Gupta**
-
-If you want to contact me, you can reach me through the below handle:
-
-* **LinkedIn:** [AADITYA GUPTA](https://www.linkedin.com/in/aadityaxgupta/)
+## 📬 Connect with Me
+- 🌐 Portfolio: [Aaditya](https://aadityaguptaaa.github.io/My-Portfolio/) 
+- 💼 LinkedIn: [AadityaxGupta](https://www.linkedin.com/in/aadityaxgupta/)
+- 📧 Email: aadityavidit@gmail.com 
