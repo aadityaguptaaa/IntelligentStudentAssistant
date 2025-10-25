@@ -11,7 +11,6 @@
 
 # ✨ Project Overview
 
-## Full-Stack, AI-Integrated Student Dashboard
 
 This project, developed as part of my **Machine Learning coursework in the 5th semester**, is a modern, intelligent student dashboard designed to transform the learning experience. Unlike traditional static platforms, this system leverages **Machine Learning models** to:
 
