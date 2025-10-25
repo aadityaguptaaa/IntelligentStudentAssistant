@@ -1,1 +1,10 @@
 
+flask
+flask-cors
+pandas
+scikit-learn
+google-generativeai
+requests
+pillow
+pytesseract
+gunicorn
