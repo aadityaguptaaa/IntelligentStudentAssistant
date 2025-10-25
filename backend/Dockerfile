@@ -1,21 +1,21 @@
-# Use official Python image
+# Use official Python 3.13 image
 FROM python:3.13-slim
 
-# Set working directory inside container
+# Set working directory
 WORKDIR /app
 
-# Copy backend folder contents into container
+# Copy backend code
 COPY . /app
 
+# Upgrade pip
+RUN python -m pip install --upgrade pip
+
 # Install dependencies
-RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
-# Expose port (optional, just documentation)
-EXPOSE 5000
+# Expose the port (Render uses $PORT environment variable)
+ENV PORT 10000
+EXPOSE $PORT
 
-# Set environment variable for default port
-ENV PORT 5000
-
-# Run the app with gunicorn, listening on all interfaces and dynamic PORT
-CMD gunicorn app:app --bind 0.0.0.0:$PORT --workers 1
+# Command to run the app with Gunicorn
+CMD ["gunicorn", "--bind", "0.0.0.0:$PORT", "app:app", "--workers=3"]
