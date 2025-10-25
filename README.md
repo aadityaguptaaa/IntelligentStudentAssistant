@@ -130,4 +130,4 @@ Follow these steps to get the development environment running on your machine.
 
 If you want to contact me, you can reach me through the below handle:
 
-* **LinkedIn:** [https://www.linkedin.com/in/aadityaxgupta/](https://www.linkedin.com/in/aadityaxgupta/)
+* **LinkedIn:** [AADITYA GUPTA](https://www.linkedin.com/in/aadityaxgupta/)
